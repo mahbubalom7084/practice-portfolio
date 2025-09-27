@@ -17,19 +17,22 @@
         rel="stylesheet">
 </head>
 
-<body class="bg-[#1E1E1E]">
+<body class="bg-[#000000]">
     <header class="border-b border-[#2c2c34]">
-        <nav class="w-[80%] mx-auto flex justify-between items-center p-7">
+        <nav class="w-[100%] sm:w-[80%] mx-auto flex justify-between items-center p-7">
             <div>
                 <h1 class="text-white text-[32px] font-extrabold font-[Manrope]">LOGO</h1>
             </div>
-            <div>
+            <div class="hidden sm:block">
                 <a class="text-white font-[Manrope] font-normal mr-8" href="">Home</a>
                 <a class="text-white font-[Manrope] font-normal mr-8" href="">About Me</a>
                 <a class="text-white font-[Manrope] font-normal mr-8" href="">Projects</a>
                 <a class="text-white font-[Manrope] font-normal mr-8" href="">Testimonials</a>
                 <button class="bg-[#E6AA32] rounded-[53px] py-[14px]
                 px-[40px] font-[Manrope] font-medium">Downlaod CV</button>
+            </div>
+            <div class="sm:hidden">
+                <i class="fa-solid fa-bars text-white"></i>
             </div>
         </nav>
     </header>
